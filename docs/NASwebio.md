@@ -9,6 +9,7 @@ Urządzenie stanowi kompromis pomiędzy nowoczesną kontrolą dostępu, alarmem 
 Kontroler wyposażony jest w dwa niezależne źródła (PoE+ oraz 12 VDC), które mogą pracować **równocześnie** (redundancja) - odłączenie jednego nie przerywa pracy, przez co osiągamy większą **niezawodność** w małych instalacjach bez dodatkowych UPS/adapterów.
 
 **Kontroler** `NASwebio` **pozwala na**:
+
 - podłączenie kamer IP
 - podłączenie kamer ANPR (automatyczne rozpoznawanie numerów rejestracyjnych)
 - czytników SKD (system kontroli dostępu)
@@ -20,6 +21,6 @@ Kontroler wyposażony jest w dwa niezależne źródła (PoE+ oraz 12 VDC), któr
 
 ## Karta katalogowa
 
-Oficjalna karta katalogowa systemu w formacie PDF, zawierająca szczegółowe informacje o funkcjach, parametrach technicznych i opcjach montażu.
+Oficjalna karta katalogowa urządzenia w formacie PDF, zawierająca szczegółowe informacje o funkcjach, parametrach technicznych i opcjach montażu.
 
 [Przejdź do karty katalogowej :material-open-in-new:](https://www.chomtech.pl/wp-content/uploads/2020/07/KK_16112017_10072020_c_CHPL_pl_NASweb_rev.1.34_20171116.pdf)
