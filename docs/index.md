@@ -18,6 +18,22 @@
 
     [:octicons-arrow-right-24: Więcej](NASwebio.md)
 
+- :material-home-assistant:{ .lg .middle } __Home Assistant__
+
+    ---
+
+    Integracja z Home Assistant - konfiguracja, ustawienia oraz przykłady.
+
+    [:octicons-arrow-right-24: Więcej](Home-Assistant-Operating-System.md)
+
+- :material-puzzle-outline:{ .lg .middle } __Dodatki__
+
+    ---
+
+    Rozszerz możliwości systemu: twórz powiadomienia, dodawaj nowe karty, uruchamiaj skrypty oraz korzystaj z funkcji Campics.
+
+    [:octicons-arrow-right-24: Więcej]()
+
 - :material-help:{ .lg .middle } __FAQ__
 
     ---
