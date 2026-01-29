@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color:        #DC3545;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+/* Pomniejszenie głównej treści (paragrafy i listy) */
+.md-typeset p,
+.md-typeset li {
+    font-size: 16px !important;   /* mniejszy tekst niż domyślny */
+    line-height: 1.6 !important;
+}
+
+/* Pomniejszenie tekstu w kartach Material */
+.md-card .md-card__description {
+    font-size: 0.85rem !important;
+}
+
+/* Nagłówki pozostają bez zmian */
