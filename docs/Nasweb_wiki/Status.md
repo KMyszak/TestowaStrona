@@ -1,0 +1,2 @@
+<img width="240" height="30" alt="obraz" src="https://github.com/user-attachments/assets/dfcf80a0-d908-4dbc-bba8-c293861658d4" />
+<img width="1647" height="1225" alt="obraz" src="https://github.com/user-attachments/assets/f8dbdfd8-0942-4286-839d-8e446bc6244b" />

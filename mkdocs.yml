@@ -1,0 +1,88 @@
+site_name: NASweb / NASwebio
+icon: favicon.png
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  language: pl
+  palette:
+    primary: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+  - Strona Główna: 
+    - NASweb.md
+    - NASwebio.md
+    - Infrormacje techniczne:
+      - Home.md
+      - NASweb-polski.md
+      - NASweb-english.md
+  - Interfejs:
+    - Interfejs/Interfejs.md
+    - Panel: 
+      - Interfejs/Panel/index.md
+      - Interfejs/Panel/Pulpit.md
+      - Interfejs/Panel/Urządzenie.md
+      - Interfejs/Panel/Monitor-zdarzeń.md
+
+      - Kontorla dostępu:
+        - Interfejs/Panel/Użytkownicy.md
+        - Interfejs/Panel/Karty.md
+        - Interfejs/Panel/Wzorce-uprawnień.md
+        - Interfejs/Panel/Przejścia-i-Czytniki.md
+
+      - SSWiN:
+        - Interfejs/Panel/Strefy.md
+        - Interfejs/Panel/Wejścia.md
+        - Interfejs/Panel/Wyjścia-(strefy).md
+
+      - Interfejs/Panel/Wideorejestracja.md
+      - Interfejs/Panel/Status.md
+
+      - Ustawienia:
+        - Ustawienia/Pulpit.md
+        - Ustawienia/GSM.md
+        - Ustawienia/Wejścia.md
+        - Ustawienia/CMS.md
+        - Ustawienia/Email.md
+        - Ustawienia/Konfiguracja-formatu-kart.md
+        - Ustawienia/Kamery.md
+        - Ustawienia/Campics.md
+        - Ustawienia/Powiadomienia.md
+        - Ustawienia/Linki-zewnętrzne.md
+        
+      - Skrypty:
+        - Interfejs/Panel/Pliki-skryptów.md
+        - Interfejs/Panel/Filtry-skryptów.md
+        - Interfejs/Panel/Logi-skryptów.md
+
+      - Interfejs/Panel/Admin.md
+
+  - Ustawienia:
+    - Ustawienia/Pulpit.md
+    - Ustawienia/GSM.md
+    - Ustawienia/Wejścia.md
+    - Ustawienia/CMS.md
+    - Ustawienia/Email.md
+    - Ustawienia/Konfiguracja-formatu-kart.md
+    - Ustawienia/Kamery.md
+    - Ustawienia/Campics.md
+    - Ustawienia/Powiadomienia.md
+    - Ustawienia/Linki-zewnętrzne.md
+
+  - Problemy:
+    - Pusto
