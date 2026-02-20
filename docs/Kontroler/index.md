@@ -4,9 +4,9 @@
 
 `NASwebio` to multisystemowy sterownik automatyki budynkowej, który stanowi rozwiązanie typu all-in-one, a dzięki wbudowanej aplikacji webowej `NASweb` nie potrzebuje specjalnych aplikacji.
 
-Urządzenie stanowi kompromis pomiędzy nowoczesną kontrolą dostępu, alarmem antywłamaniowym, telewizją przemysłową, a automatyzacją z inteligentnymi powiadomieniami i łatwością obsługi lokalnej lub w chmurze.
+Urządzenie stanowi kompromis pomiędzy nowoczesną kontrolą dostępu, alarmem antywłamaniowym, telewizją przemysłową, a&nbsp;automatyzacją z&nbsp;inteligentnymi powiadomieniami i łatwością obsługi lokalnej lub w chmurze.
 
-Kontroler wyposażony jest w dwa niezależne źródła (PoE+ oraz 12 VDC), które mogą pracować **równocześnie** (redundancja) - odłączenie jednego nie przerywa pracy, przez co osiągamy większą **niezawodność** w małych instalacjach bez dodatkowych UPS/adapterów.
+Kontroler wyposażony jest w dwa niezależne źródła (PoE+ oraz 12 V DC), które mogą pracować **równocześnie** (redundancja) - odłączenie jednego nie przerywa pracy, przez co osiągamy większą **niezawodność** w małych instalacjach bez dodatkowych UPS/adapterów.
 
 **Kontroler** `NASwebio` **pozwala na**:
 

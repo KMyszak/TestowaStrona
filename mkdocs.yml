@@ -5,7 +5,7 @@ extra_css:
 theme:
   name: material
   language: pl
-  logo: logo_wiki_nasweb.png
+  logo: image.png
   palette:
     primary: custom
   features:
@@ -14,7 +14,6 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
-    - navigation.path
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -25,17 +24,16 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
-  - Strona Główna: 
-    - NASweb.md
-    - NASwebio.md
-    - Infrormacje techniczne:
-      - Home.md
-      - NASweb-polski.md
-      - NASweb-english.md
+  - Start: 
+    - index.md
+  - Informacje techniczne:
+    - Home.md
+    - NASweb-polski.md
+    - NASweb-english.md
   - Aplikacja:
+    - Aplikacja/index.md
     - Aplikacja/Aplikacja.md
     - Panel: 
-      - Aplikacja/Panel/index.md
       - Aplikacja/Panel/Pulpit.md
       - Aplikacja/Panel/Urządzenie.md
       - Aplikacja/Panel/Monitor-zdarzeń.md
@@ -67,23 +65,17 @@ nav:
         - Ustawienia/Linki-zewnętrzne.md
         
       - Skrypty:
-        - Aplikacja/Nasweb_wiki/Pliki-skryptów.md
-        - Aplikacja/Nasweb_wiki/Filtry-skryptów.md
-        - Aplikacja/Nasweb_wiki/Logi-skryptów.md
+        - Aplikacja/Panel/Pliki-skryptów.md
+        - Aplikacja/Panel/Filtry-skryptów.md
+        - Aplikacja/Panel/Logi-skryptów.md
 
       - Aplikacja/Panel/Admin.md
-
-  - Ustawienia:
-    - Ustawienia/Pulpit.md
-    - Ustawienia/GSM.md
-    - Ustawienia/Wejścia.md
-    - Ustawienia/CMS.md
-    - Ustawienia/Email.md
-    - Ustawienia/Konfiguracja-formatu-kart.md
-    - Ustawienia/Kamery.md
-    - Ustawienia/Campics.md
-    - Ustawienia/Powiadomienia.md
-    - Ustawienia/Linki-zewnętrzne.md
-
-  - Problemy:
-    - Problemy.md
+  - Kontroler:
+    - Kontroler/index.md
+  - Home Assistant:
+    - HomeAssistant/Home-Assistant-Operating-System.md
+    - HomeAssistant/Instalacja-integracji.md
+  - Dodatki:
+    - Dodatki/index.md
+  - FAQ:
+    - FAQ/index.md

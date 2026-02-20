@@ -4,16 +4,41 @@
   --md-primary-fg-color--dark:  #90030C;
 }
 
-/* Pomniejszenie głównej treści (paragrafy i listy) */
+/* Pomniejszenie głównej treści */
 .md-typeset p,
 .md-typeset li {
-    font-size: 16px !important;   /* mniejszy tekst niż domyślny */
+    font-size: 16px !important;
     line-height: 1.6 !important;
 }
 
-/* Pomniejszenie tekstu w kartach Material */
-.md-card .md-card__description {
-    font-size: 0.85rem !important;
+/* Pomniejszenie admonitions (musi być bardzo specyficzne) */
+.md-typeset .admonition,
+.md-typeset .admonition * {
+    font-size: 15px !important;
+    line-height: 1.4 !important;
 }
 
-/* Nagłówki pozostają bez zmian */
+/* Nagłówek admonition (też ma swój własny font w Material) */
+.md-typeset .admonition .admonition-title {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+/* Dopasowanie kart Material (żeby pasowały do p/li) */
+.md-card .md-card__description {
+    font-size: 14px !important;
+}
+
+/* Tabele centrowane */
+.center-table {
+  text-align: center;
+}
+.md-typeset .center-table :is(td, th):not([align]) {
+  text-align: initial;
+}
+
+/* Szerokie tabele */
+.wide-table {
+  width: 100%;
+}
+

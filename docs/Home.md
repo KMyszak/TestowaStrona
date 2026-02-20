@@ -19,6 +19,6 @@
 
 Dokumentacja obejmuje tematy związane z konfiguracją kontrolera `NASwebio` w **Home Assistant** oraz aplikacji `NASweb`.
 
-👉 [Czytaj dalej po polsku…](Aplikacja/Aplikacja.md)
+👉 [Czytaj dalej po polsku…](../Aplikacja/)
 
 
