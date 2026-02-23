@@ -1,3 +1,5 @@
+# Kamery
+
 ## Panel kamer    
 
 * **PTZ** - kamera obrotowa: Pan/Tilt/Zoom  

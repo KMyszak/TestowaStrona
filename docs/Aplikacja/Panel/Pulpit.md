@@ -1,11 +1,13 @@
-Główny panel aplikacji, zapewniający szybki dostęp do najważniejszych funkcji systemu. 
+# Pulpit
+
+Główny panel aplikacji zapewnia szybki dostęp do najważniejszych funkcji systemu. 
  
 ## Moduły 
 
 - **Strefy** - lista wszystkich stref z możliwością szybkiego uzbrajania i rozbrajania
 - **Kamery** - dostęp do skonfigurowanych kamer oraz ich podglądu na żywo
-- **10 ostatnich zdarzeń** - podgląd 10 najnowszych zdarzeń w systemie
-- **Czytniki** - lista wszystkich czytników wraz z aktualnym stanem
+- **10 ostatnich zdarzeń** - podgląd dziesięciu najnowszych zdarzeń w systemie
+- **Czytniki** - lista wszystkich czytników wraz z ich aktualnym stanem
 - **Wyjścia** - lista skonfigurowanych wyjść z możliwością ich ręcznego przełączenia
 
 !!! info "Dodatkowe opcje"
@@ -17,5 +19,5 @@ Główny panel aplikacji, zapewniający szybki dostęp do najważniejszych funkc
 
 ## Konfiguracja modułów
 
-Wyświetlane moduły można dostosować wybierając w menu:  
+Wyświetlane moduły można dostosować, wybierając w menu:  
 `Ustawienia` → [`Pulpit`](../../Ustawienia/Pulpit.md)

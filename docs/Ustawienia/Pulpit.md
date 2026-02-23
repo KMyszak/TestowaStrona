@@ -1,3 +1,5 @@
+# Pulpit
+
 ## Zarządzanie modułami panelu głównego
 
 <img width="600"  alt="obraz" src="https://github.com/user-attachments/assets/eb823458-52df-4f5c-af1b-f1c0ac978702" />

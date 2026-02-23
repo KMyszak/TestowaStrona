@@ -1,3 +1,5 @@
+# GSM
+
 ## Parametry modułu GSM
 
 W tym miejscu można sprawdzić parametry połączenia (jeśli urządzenie jest wyposażone w **moduł GSM**):

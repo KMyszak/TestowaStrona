@@ -77,7 +77,7 @@ The key advantage of NASwebio is **synergy** - combining functions yields more t
 ### 3.2. System Components
 
 - 16 digital inputs  
-- 6 relay outputs 2 A @ 12 VDC  
+- 6 relay outputs 2 A @ 12 V DC  
 - 1-Wire sensors (temperature/humidity)  
 - up to 4 RS-485 readers (OSDP)  
 - up to 4 cameras (snapshot/ANPR)  
@@ -112,9 +112,9 @@ Replacing keys with cards, PINs, biometrics, license plates.
 - **Denial (revocation)** acts like a *grant with the opposite sign*: it **removes** access even if granted elsewhere  
 
 - **Conflict priorities:**  
-    1) **Denial > grant** (denial wins)   
-    2) **Individual > template** (individual rights are superior)    
-    3) Schedule: access is active when **at least one** source is active (unless a denial is active at that time)
+    1\. **Denial > grant** (denial wins)   
+    2\. **Individual > template** (individual rights are superior)    
+    3\. Schedule: access is active when **at least one** source is active (unless a denial is active at that time)
 
 !!! example "Denial example" 
     The “Employees” group has Server Room access, but one user gets an **individual denial** on that door - result: **everyone has** access, **except that user**.
@@ -255,20 +255,20 @@ Script engine (`JavaScript-like`):
 
 ## 14. Technical specs
 
-| Parameter        | Value                                         |
-|------------------|-----------------------------------------------|
+| Parameter        | Value                                        |
+|------------------|----------------------------------------------|
 | CPU              | ARM Quad-Core                                |
-| RAM              | 4 GB                                          |
+| RAM              | 4 GB                                         |
 | Storage          | 32 GB eMMC                                   |
-| Display          | 1.4’’                                         |
-| Buttons          | 4                                             |
+| Display          | 1.4’’                                        |
+| Buttons          | 4                                            |
 | Network          | 1× uplink FE (PoE+), 2× downlink FE          |
-| Power            | 12 VDC + PoE+ (redundant, parallel)          |
+| Power            | 12 V DC + PoE+ (redundant, parallel)          |
 | Enclosure        | DIN rail, 10 modules                         |
 | Terminals        | Detachable                                   |
 | USB              | storage/peripherals                          |
-| Relay outputs    | 6× (2A @ 12VDC)                              |
-| Digital inputs   | 16×                                           |
+| Relay outputs    | 6× (2 A @ 12 V DC)                              |
+| Digital inputs   | 16×                                          |
 | Readers          | up to 4 (RS-485 OSDP)                        |
 | Cameras          | up to 4 (snapshot/ANPR)                      |
 | Power output     | relay for reset                              |
@@ -280,7 +280,7 @@ Script engine (`JavaScript-like`):
 | Variants         | versions with different I/O & housings       |
 
 !!! info "Redundant power"
-    Two independent sources (PoE+ and 12 VDC) can be connected simultaneously - disconnecting one **does not interrupt operation**. Benefit over single-supply: higher reliability without extra UPS/adapters in small sites.
+    Two independent sources (PoE+ and 12 V DC) can be connected simultaneously - disconnecting one **does not interrupt operation**. Benefit over single-supply: higher reliability without extra UPS/adapters in small sites.
 
 ---
 
@@ -294,7 +294,7 @@ Script engine (`JavaScript-like`):
 
 ---
 
-## 16. haos.app Variant – eco optimization
+## 16. haos.app Variant - eco optimization
 
 NASwebio also available as **haos.app**:  
 

@@ -1,10 +1,10 @@
 site_name: Dokumentacja NASweb
-icon: favicon.png
 extra_css:
   - stylesheets/extra.css
 theme:
   name: material
   language: pl
+  favicon: favicon.png
   logo: image.png
   palette:
     primary: custom
@@ -26,28 +26,24 @@ markdown_extensions:
 nav:
   - Start: 
     - index.md
-  - Informacje techniczne:
-    - Home.md
-    - NASweb-polski.md
-    - NASweb-english.md
   - Aplikacja:
     - Aplikacja/index.md
     - Aplikacja/Aplikacja.md
     - Panel: 
       - Aplikacja/Panel/Pulpit.md
-      - Aplikacja/Panel/Urządzenie.md
-      - Aplikacja/Panel/Monitor-zdarzeń.md
+      - Aplikacja/Panel/Urzadzenie.md
+      - Aplikacja/Panel/Monitor-zdarzen.md
 
       - Kontrola dostępu:
-        - Aplikacja/Panel/Użytkownicy.md
+        - Aplikacja/Panel/Uzytkownicy.md
         - Aplikacja/Panel/Karty.md
-        - Aplikacja/Panel/Wzorce-uprawnień.md
-        - Aplikacja/Panel/Przejścia-i-Czytniki.md
+        - Aplikacja/Panel/Wzorce-uprawnien.md
+        - Aplikacja/Panel/Przejscia-i-Czytniki.md
 
       - SSWiN:
         - Aplikacja/Panel/Strefy.md
-        - Aplikacja/Panel/Wejścia.md
-        - Aplikacja/Panel/Wyjścia-(strefy).md
+        - Aplikacja/Panel/Wejscia.md
+        - Aplikacja/Panel/Wyjscia-strefy.md
 
       - Aplikacja/Panel/Wideorejestracja.md
       - Aplikacja/Panel/Status.md
@@ -55,19 +51,19 @@ nav:
       - Ustawienia:
         - Ustawienia/Pulpit.md
         - Ustawienia/GSM.md
-        - Ustawienia/Wejścia.md
+        - Ustawienia/Wejscia.md
         - Ustawienia/CMS.md
         - Ustawienia/Email.md
         - Ustawienia/Konfiguracja-formatu-kart.md
         - Ustawienia/Kamery.md
         - Ustawienia/Campics.md
         - Ustawienia/Powiadomienia.md
-        - Ustawienia/Linki-zewnętrzne.md
+        - Ustawienia/Linki-zewnetrzne.md
         
       - Skrypty:
-        - Aplikacja/Panel/Pliki-skryptów.md
-        - Aplikacja/Panel/Filtry-skryptów.md
-        - Aplikacja/Panel/Logi-skryptów.md
+        - Aplikacja/Panel/Pliki-skryptow.md
+        - Aplikacja/Panel/Filtry-skryptow.md
+        - Aplikacja/Panel/Logi-skryptow.md
 
       - Aplikacja/Panel/Admin.md
   - Kontroler:
@@ -77,5 +73,9 @@ nav:
     - HomeAssistant/Instalacja-integracji.md
   - Dodatki:
     - Dodatki/index.md
+  - Informacje techniczne:
+    - Home.md
+    - NASweb-polski.md
+    - NASweb-english.md
   - FAQ:
     - FAQ/index.md

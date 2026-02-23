@@ -1,3 +1,5 @@
+# Powiadomienia 
+
 ## Panel powiadomień
 
 System pozwala skonfigurować do **150 niezależnych powiadomień**, które uruchamiają się po wystąpieniu wybranych zdarzeń (np. alarm, usterka, sabotaż, zdarzenia SSWiN, zdarzenia kontroli dostępu). Każde powiadomienie może mieć **inny typ**, **odbiorców** oraz **sposób wysyłki** (SMS, e-mail, zdjęcia z kamer, zdarzenia w aplikacji).

@@ -1,3 +1,5 @@
+# Email
+
 ## Ustawienia skrzynki pocztowej
 
 Konfiguracja serwera **SMTP**, który służy do wysyłania wiadomości **e-mail** przez system, najczęściej **automatycznie**, bez udziału użytkownika.

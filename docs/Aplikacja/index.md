@@ -21,18 +21,18 @@ System pozwala zarządzać wieloma obiektami jednocześnie bez ograniczeń geogr
 
 ## Cechy systemu
 
-- kompleksowe rozwiązanie w zakresie **bezpieczeństwa i automatyki**
-- w pełni funkcjonalny system **kontroli dostępu** 
-- inteligentny system **antywłamaniowy** 
-- **powiadomienia wideo** 
+- kompleksowe rozwiązanie w zakresie bezpieczeństwa i automatyki
+- w pełni funkcjonalny system kontroli dostępu
+- inteligentny system antywłamaniowy 
+- powiadomienia wideo 
 - rozbudowane powiadomienia przez SMS, e-mail, załączniki zdjęć 
-- **uzbrajanie** / **rozbrajanie** strefy alarmowej przez SMS GSM, PIN, kartę dostępu, PC lub telefon
-- **odmowa dostępu** dla uzbrojonych stref 
-- **powiadomienia tekstowe** (GSM), e-mail w przypadku wystąpienia zdarzenia
-- **integracja kamer ANPR** i zarządzanie dostępem na podstawie tablic rejestracyjnych
-- **komunikaty głosowe** o zdarzeniach 
-- **łatwa integracja** z oprogramowaniem monitorującym innych firm
-- **bezpieczeństwo** danych 
+- uzbrajanie / rozbrajanie strefy alarmowej przez SMS GSM, PIN, kartę dostępu, PC lub telefon
+- odmowa dostępu** dla uzbrojonych stref 
+- powiadomienia tekstowe (GSM), e-mail w przypadku wystąpienia zdarzenia
+- integracja kamer ANPR i zarządzanie dostępem na podstawie tablic rejestracyjnych
+- komunikaty głosowe o zdarzeniach 
+- łatwa integracja z oprogramowaniem monitorującym innych firm
+- bezpieczeństwo danych 
 
 
 

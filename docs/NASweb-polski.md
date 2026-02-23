@@ -2,8 +2,7 @@
 
 ## 1. Wprowadzenie
 
-**NASwebio** to nowoczesny kontroler bezpieczeństwa i automatyki budynkowej,  
-który posiada wbudowaną aplikację **NASweb**.  
+**NASwebio** to nowoczesny kontroler bezpieczeństwa i automatyki budynkowej, który posiada wbudowaną aplikację **NASweb**.  
 
 Łączy w sobie funkcje, które zwykle są realizowane przez kilka osobnych urządzeń: 
 
@@ -31,7 +30,7 @@ Największą zaletą NASwebio jest **synergia** - połączenie funkcji daje znac
 
 - karta nie tylko otwiera drzwi, ale też **uzbraja/rozbraja strefę**  
 - dostęp kartą do strefy może być **zablokowany, gdy strefa jest uzbrojona**  
-- jeśli ostatni użytkownik opuści strefę, system automatycznie ją uzbroi  
+- jeśli ostatni użytkownik opuści strefę, system **automatycznie ją uzbroi**  
 
 !!! success "Efekt"
     Mniej błędów, większe bezpieczeństwo, mniej interwencji ochrony.
@@ -44,7 +43,7 @@ Czujniki temperatury sterują przekaźnikami w **trzech stanach**:
 - **powyżej zakresu** - (np.) włącz chłodzenie 
 
 !!! info "Wyjścia przekaźnikowe"
-    Dla **każdego stanu** wybiera się **dokładnie jedno** wyjście przekaźnikowe (może to być ten sam przekaźnik w różnych stanach). Jeżeli potrzebujesz zadziałać **kilkoma** wyjściami w tym samym stanie (np. jednocześnie wentylacja i chłodzenie), zrób to skryptem lub użyj zewnętrznego sprzęgła/rozgałęzienia.
+    Dla **każdego stanu** wybiera się **dokładnie jedno** wyjście przekaźnikowe (może to być ten sam przekaźnik w&nbsp;różnych stanach). Jeżeli potrzebujesz zadziałać **kilkoma** wyjściami w tym samym stanie (np. jednocześnie wentylacja i chłodzenie), zrób to skryptem lub użyj zewnętrznego sprzęgła/rozgałęzienia.
 
 !!! example "Przykład" 
     W strefie *Magazyn* kontroler włącza **wentylację** w przedziale 20–28 °C (stan „w zakresie”). 
@@ -70,13 +69,13 @@ Czujniki temperatury sterują przekaźnikami w **trzech stanach**:
 - dostęp z dowolnej przeglądarki (PC, tablet, smartfon)  
 - role: 
 
-     **operator** - loguje się i zarządza systemem  
-     **użytkownik** - korzysta z przejść kartą/PIN-em 
+    - **operator** - loguje się i zarządza systemem  
+    - **użytkownik** - korzysta z przejść kartą/PIN-em 
 
 ### 3.2. Elementy systemu
 
 - 16 wejść cyfrowych (czujniki drzwi, zalania, ruchu)  
-- 6 wyjść przekaźnikowych 2 A @ 12 VDC  
+- 6 wyjść przekaźnikowych 2 A @ 12 V DC  
 - czujniki 1-Wire (temperatura/wilgotność) 
 - do 4 czytników RS-485 (OSDP)  
 - do 4 kamer (snapshot / ANPR)  
@@ -103,7 +102,7 @@ Zamiast kluczy używane są karty, PIN-y, biometryka czy tablice rejestracyjne.
 
 - użytkownik ma przypisane **identyfikatory** (karta, PIN, nr rejestracyjny)
 - operator tworzy **wzorce uprawnień** - przejścia z harmonogramami i warunkami  
-- użytkownik może mieć wiele wzorców i dodatkowe indywidualne prawa  
+- użytkownik może mieć **wiele wzorców** i dodatkowe indywidualne prawa  
 
 #### Dziedziczenie, sumowanie i negacja uprawnień
 
@@ -111,9 +110,10 @@ Zamiast kluczy używane są karty, PIN-y, biometryka czy tablice rejestracyjne.
 - **Negacja (odebranie prawa)** działa jak _uprawnienie z odwróconym znakiem_ i **kasuje dostęp**, nawet jeśli został on przyznany w innym miejscu 
 
 - **Priorytety rozstrzygania konfliktów:**   
-    1) **Negacja** > **przyznanie** (negacja wygrywa)  
-    2) **Uprawnienia indywidualne** > **wzorcowe** (prawa indywidualne są nadrzędne)  
-    3) Harmonogram: dostęp jest aktywny, gdy jest aktywny w **co najmniej jednym** źródle (chyba że w tym czasie działa negacja)  
+
+    1\. **Negacja** > **przyznanie** (negacja wygrywa)  
+    2\. **Uprawnienia indywidualne** > **wzorcowe** (prawa indywidualne są nadrzędne)  
+    3\. Harmonogram: dostęp jest aktywny, gdy jest aktywny w **co najmniej jednym** źródle (chyba że w tym czasie działa negacja)  
 
 !!! example "Przykład negacji"
     Cała grupa „Pracownicy” ma dostęp do *Serwerowni*, ale jednemu użytkownikowi przypisujesz **indywidualne odebranie** - w efekcie **wszyscy** mają, a **on jeden nie**.
@@ -230,7 +230,7 @@ Silnik skryptowy (składnia podobna do `JavaScript`):
 - logika śluz (door A otworzy się, jeśli B zamknięte)  
 - reguły czasowe (np. dostęp po 22:00 tylko z PIN)  
 - powiązania między modułami (np. karta + wysterowanie wyjścia)  
-- **rozszerzenia HVAC** (np. równoległe załączanie wielu wyjść dla jednego stanu) 
+- rozszerzenia HVAC (np. równoległe załączanie wielu wyjść dla jednego stanu) 
 - niestandardowe scenariusze projektowe bez zewnętrznego programowania
 
 ---
@@ -256,32 +256,32 @@ Silnik skryptowy (składnia podobna do `JavaScript`):
 
 ## 14. Specyfikacja techniczna
 
-| Parametr              | Wartość                                           |
-|------------------------|---------------------------------------------------|
-| Procesor              | ARM Quad-Core                                     |
-| RAM                   | 4 GB                                              |
-| Pamięć wewnętrzna     | 32 GB eMMC                                        |
-| Wyświetlacz           | 1,4’’                                             |
-| Przyciski funkcyjne   | 4                                                 |
+| Parametr              | Wartość                                                 |
+|-----------------------|---------------------------------------------------------|
+| Procesor              | ARM Quad-Core                                           |
+| RAM                   | 4 GB                                                    |
+| Pamięć wewnętrzna     | 32 GB eMMC                                              |
+| Wyświetlacz           | 1,4’’                                                   |
+| Przyciski funkcyjne   | 4                                                       |
 | Sieć                  | 1× uplink FastEthernet (PoE+), 2× downlink FastEthernet |
-| Zasilanie             | 12 VDC + PoE+ (redundancja, praca równoległa)     |
-| Obudowa               | Szyna DIN, 10 modułów                             |
-| Terminale             | Rozłączalne bloki                                 |
-| USB                   | pamięci i urządzenia USB                          |
-| Wyjścia przekaźnikowe | 6× (2A @ 12VDC)                                   |
-| Wejścia cyfrowe       | 16×                                               |
-| Czytniki              | do 4 (RS-485 OSDP)                                |
-| Kamery                | do 4 (snapshot / ANPR)                            |
-| Wyjście sterujące     | przekaźnik zasilający dla resetu urządzeń         |
-| System operacyjny     | Embedded Linux                                    |
-| Integracja chmurowa   | VPN do haos.app                                   |
-| Home Assistant        | strefy, wejścia, wyjścia, termostat               |
-| Aplikacje dodatkowe   | np. posterunek ANPR                               |
-| OEM/ODM               | personalizacja przy zamówieniach wolumenowych     |
-| Warianty              | różne wersje I/O i obudów                         |
+| Zasilanie             | 12 VDC + PoE+ (redundancja, praca równoległa)           |
+| Obudowa               | Szyna DIN, 10 modułów                                   |
+| Terminale             | Rozłączalne bloki                                       |
+| USB                   | pamięci i urządzenia USB                                |
+| Wyjścia przekaźnikowe | 6× (2 A @ 12 V DC)                                         |
+| Wejścia cyfrowe       | 16×                                                     |
+| Czytniki              | do 4 (RS-485 OSDP)                                      |
+| Kamery                | do 4 (snapshot / ANPR)                                  |
+| Wyjście sterujące     | przekaźnik zasilający dla resetu urządzeń               |
+| System operacyjny     | Embedded Linux                                          |
+| Integracja chmurowa   | VPN do haos.app                                         |
+| Home Assistant        | strefy, wejścia, wyjścia, termostat                     |
+| Aplikacje dodatkowe   | np. posterunek ANPR                                     |
+| OEM/ODM               | personalizacja przy zamówieniach wolumenowych           |
+| Warianty              | różne wersje I/O i obudów                               |
 
 !!! info "Redundancja zasilania"
-    Dwa niezależne źródła (PoE+ i 12 VDC) mogą pracować równocześnie - odłączenie jednego **nie przerywa pracy**. Przewaga nad pojedynczym zasilaniem: większa niezawodność bez dodatkowych UPS/adapterów w małych instalacjach.
+    Dwa niezależne źródła (PoE+ i 12 V DC) mogą pracować równocześnie - odłączenie jednego **nie przerywa pracy**. Przewaga nad pojedynczym zasilaniem: większa niezawodność bez dodatkowych UPS/adapterów w małych instalacjach.
 
 ---
 

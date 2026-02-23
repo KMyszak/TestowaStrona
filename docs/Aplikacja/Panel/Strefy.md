@@ -1,3 +1,5 @@
+# Strefy
+
 **Strefa to logicznie wydzielony obszar systemu alarmowego, mający własne:**
 
 - nazwę

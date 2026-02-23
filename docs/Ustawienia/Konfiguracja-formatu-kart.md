@@ -1,3 +1,5 @@
+# Konfiguracja formatu kart
+
 **Format karty** - sposób zakodowania danych na karcie dotępu:
 
 **H10301**    

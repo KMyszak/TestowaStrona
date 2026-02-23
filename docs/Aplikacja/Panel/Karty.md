@@ -1,3 +1,5 @@
+# Karty
+
 Panel z listą dodanych kart oraz możliwością utworzenia nowych. 
 
 **Karta** to unikalny identyfikator (np. RFID), który pozwala użytkownikowi na fizyczne **otwieranie** przejść lub **uruchamianie** funkcji systemu. Karta jest przypisana do **konkretnego** użytkownika i powiązana z jego **uprawnieniami**.
