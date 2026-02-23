@@ -2,7 +2,7 @@
 
 <img alt="obraz" width="290px" align="right" src="https://github.com/user-attachments/assets/a2241128-504c-48a7-a755-af97b0a9089a" />
 
-Do panelu logujemy się poprzez **IP** kontrolera [`NASwebio`](NASwebio). Interfejs jest dostępny z poziomu dowolnej przeglądarki (PC, tablet, smartfon).
+Do panelu logujemy się poprzez **IP** kontrolera [**NASwebio**](../Kontroler/index.md). Interfejs jest dostępny z poziomu dowolnej przeglądarki (PC, tablet, smartfon).
   
 Interfejs łączy w sobie funkcje, które zwykle są realizowane przez kilka osobnych urządzeń:
 

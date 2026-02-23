@@ -4,7 +4,7 @@
 
 **HAOS** (**Home Assistant Operating System**) to dedykowany system operacyjny do uruchamiania Home Assistant - popularnej platformy do automatyzacji domu. Zapewnia pełne środowisko z pełną konfiguracją systemu.
 
-Prezentowane rozwiązanie opiera się na urządzeniu wykorzystującym system [**NASweb**](https://www.chomtech.pl/nasweb/) firmy [**Chomtech**](https://www.chomtech.pl/).  
+Prezentowane rozwiązanie opiera się na urządzeniu wykorzystującym system [**NASweb**](../Aplikacja/index.md) firmy [**Chomtech**](https://www.chomtech.pl/).  
 
 Aby przejść do panelu zarządzania:
 
@@ -31,8 +31,9 @@ Panel webowy dostępny pod adresem `twoja_domena.haos.app` umożliwia:
 -  **konfigurację** i **instalację** dodatków
 -  **personalizację** panelu głównego (dashboardu) 
 
+---
 
-## Edycja elementów na pasku bocznym
+## Edycja elementów
 
 1. Zaloguj się do interfejsu Home Assistant przez adres:   
 
@@ -42,7 +43,7 @@ Panel webowy dostępny pod adresem `twoja_domena.haos.app` umożliwia:
 
     `Użytkownik → Ogólny → Ustawienia użytkownika → Zmień kolejność i ukryj elementy na pasku bocznym`
 
-    <img width="598" height="290" alt="obraz" src="https://github.com/user-attachments/assets/bca43343-f422-4b78-8103-61ee6a3dc724" />
+    <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/bca43343-f422-4b78-8103-61ee6a3dc724" />
    
     !!! info ""
 

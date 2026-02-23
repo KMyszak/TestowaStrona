@@ -17,7 +17,7 @@ Każdy użytkownik może:
 
 ## Powiązane strony
 
-- [**Edycja użytkownika**](../../Nasweb_wiki/Edycja-użytkownika.md) 
-- [**Tworzenie nowego użytkownika**](../../Nasweb_wiki/Tworzenie-nowego-użytkownika.md) 
-- [**Menu szybkiej zmiany ustawień**](../../Nasweb_wiki/Menu-szybkiej-zmiany-ustawień.md)
+- [**Edycja użytkownika**](../Uzytkownicy/Edycja.md) 
+- [**Tworzenie nowego użytkownika**](../Uzytkownicy/Tworzenie-nowego.md) 
+- [**Menu szybkiej zmiany ustawień**](../Uzytkownicy/Menu-szybkiej-zmiany.md)
 

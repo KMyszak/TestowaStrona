@@ -15,3 +15,5 @@
 6. Po udanym logowaniu pojawi się nowy panel:  
 
     <img width="320" height="142" alt="obraz" src="https://github.com/user-attachments/assets/ad95b731-0599-48ad-8981-49a1825d2080" />
+
+7. Urządzenie jest gotowe do pracy

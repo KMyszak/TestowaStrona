@@ -1,4 +1,4 @@
-# Przejścia i czytniki
+# Przejścia/Czytniki
 
 Panel z listą czytników oraz możliwością dodania nowych.
 

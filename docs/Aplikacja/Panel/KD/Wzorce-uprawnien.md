@@ -2,7 +2,7 @@
 
 Panel z listą wzorców uprawnień oraz możliwością utworzenia nowych.
 
-Wzorzec uprawnień to **zestaw reguł** określających, do jakich **przejść**, **stref** lub **funkcji** użytkownik ma dostęp. Wzorzec można przypisać **wielu** użytkownikom, aby szybciej zarządzać uprawnieniami w większych instalacjach.
+Wzorzec uprawnień to **zestaw reguł** określających, do jakich **przejść**, **stref** lub **funkcji** użytkownik ma dostęp. Wzorzec można przypisać **wielu** użytkownikom, aby szybciej zarządzać uprawnieniami w&nbsp;większych instalacjach.
 
 ## Tworzenie nowego wzorca
 Aby stworzyć nową kartę należy w lewym górnym rogu kliknac `+ NOWY`:

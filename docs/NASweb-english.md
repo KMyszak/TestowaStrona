@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-**NASwebio** is a modern building security & automation controller with the embedded **NASweb** web application.  
+**NASwebio** is a modern building security and automation controller with the embedded **NASweb** web application.  
 
 It unifies functions typically provided by several separate devices: 
 
@@ -37,18 +37,18 @@ The key advantage of NASwebio is **synergy** - combining functions yields more t
     Fewer mistakes, higher security, less intervention.
 
 ### Example 2: HVAC & environmental control
-- Temperature sensors drive relays in **three states**:  
+Temperature sensors drive relays in **three states**:  
 
-    - **below range** - (e.g.) heating  
-    - **within range** - (e.g.) ventilation  
-    - **above range** - (e.g.) cooling  
+- **below range** - (e.g.) heating  
+- **within range** - (e.g.) ventilation  
+- **above range** - (e.g.) cooling  
 
 !!! info "Relay outputs"
     For **each state**, you select **exactly one** relay output (it may be the same relay used in different states).   
     If you need to activate **multiple** outputs in the same state (e.g., ventilation and cooling at the same time), use a script or an external splitter/relay module.
 
 !!! example "Example"
-    In the *Warehouse* zone, the controller activates **ventilation** in 20–28 °C (the “within” state).   
+    In the *Warehouse* zone, the controller activates **ventilation** in 20-28 °C (the “within” state).   
     Once temperature exceeds 28 °C, control switches to the relay assigned to the “above” state (e.g. **cooling**).  
 
 !!! success "Result"
@@ -56,8 +56,9 @@ The key advantage of NASwebio is **synergy** - combining functions yields more t
 
 ### Example 3: Events + images
 
-- Any event (e.g. card read, sensor trigger) can be linked with a camera snapshot  
-- The admin sees: *John Doe opened the door at 10:05* + **the picture**  
+Any event (e.g. card read, sensor trigger) can be linked with a camera snapshot:
+
+- the admin sees: *John Doe opened the door at 10:05* + **the picture**  
 
 !!! success "Result"
     Faster verification and response.
@@ -108,8 +109,8 @@ Replacing keys with cards, PINs, biometrics, license plates.
 
 #### Inheritance, accumulation, and denial
 
-- The system **accumulates rights (logical OR)** from templates and individual grants - the user gets **all** accesses granted by **any** source  
-- **Denial (revocation)** acts like a *grant with the opposite sign*: it **removes** access even if granted elsewhere  
+- The system **accumulates rights** (logical OR) from templates and individual grants - the user gets **all** accesses granted by **any** source  
+- **Denial** (*revocation*) acts like a *grant with the opposite sign* - it **removes** access even if granted elsewhere  
 
 - **Conflict priorities:**  
     1\. **Denial > grant** (denial wins)   
@@ -117,7 +118,9 @@ Replacing keys with cards, PINs, biometrics, license plates.
     3\. Schedule: access is active when **at least one** source is active (unless a denial is active at that time)
 
 !!! example "Denial example" 
-    The “Employees” group has Server Room access, but one user gets an **individual denial** on that door - result: **everyone has** access, **except that user**.
+    
+    The “Employees” group has Server Room access, but one user gets an **individual denial** on that door.  
+    Result: **everyone has** access, **except that user**.
 
 <img width="1180" alt="User edit" src="https://github.com/user-attachments/assets/cc01d60a-d9d2-4656-847d-c98ac232f87a" />  
 📷 **User editing**
@@ -136,7 +139,7 @@ On violation - triggers alarm and notifies.
 ### 6.2. In NASweb
 - inputs are assigned to **zones** (e.g. office, warehouse)  
 - zones armed/disarmed by card  
-- outputs drive sirens & automation 
+- outputs drive sirens and automation 
 - integrated with AC: entry via card can disarm the zone
 
 <img width="1424" alt="Input config" src="https://github.com/user-attachments/assets/b95df204-3a53-49bc-9c1f-cd022b3c3b29" />  
@@ -157,16 +160,16 @@ On violation - triggers alarm and notifies.
 - 1-Wire temperature sensor  
 - **three states** with exactly **one** relay per state:  
 
-    - below range - (e.g.) heating  
-    - within range - (e.g.) ventilation  
-    - above range - (e.g.) cooling  
+    - **below range** - (e.g.) heating  
+    - **within range** - (e.g.) ventilation  
+    - **above range** - (e.g.) cooling  
 
 !!! warning "Relays"
     The **same relay** may be used across different states if desired.  
     If you need **multiple relays** simultaneously for one state, use **scripts** or an external coupler.
 
 !!! example "Example"
-    *Warehouse* zone - ventilation in 20–28 °C.  
+    *Warehouse* zone - ventilation in 20-28 °C.  
     Above 28 °C, control switches to the “above” state relay (cooling).  
 
 <img width="1178" alt="HVAC config" src="https://github.com/user-attachments/assets/9cc6816a-d7f5-4848-abed-ca9bfba9cb13" />  
@@ -180,14 +183,14 @@ On violation - triggers alarm and notifies.
 📷 **Cameras / Campics**
 
 - events linked to snapshots (*Campics*)  
-- **ANPR** support  
+- ANPR support  
 - filtering and quick verification
 
 ---
 
 ## 9. Notifications - key events
 
-Top 15 for homes/offices:  
+**Top** 15 for homes/offices:  
 
 1. Authorized entry  
 2. Authorized exit  
@@ -230,14 +233,14 @@ Script engine (`JavaScript-like`):
 - mantrap logic (door A opens only if B is closed)  
 - time-based rules (e.g. after 22:00 PIN required)  
 - inter-module links (card use → automation output)  
-- **HVAC extensions** (drive multiple relays for one state)  
+- HVAC extensions (drive multiple relays for one state)  
 - custom project scenarios without external programming
 
 ---
 
 ## 12. Project applications
 
-- entry/exit checkpoint with **ANPR**  
+- entry/exit checkpoint with ANPR  
 - load photo records 
 - time-limited transport permissions  
 
@@ -306,11 +309,11 @@ NASwebio also available as **haos.app**:
 
 ### Advantages
 
-- **all-in-one DIN device**  
-- **space saving** - one instead of 3-4  
-- **lower energy & heat**  
-- **lower cost**  
-- **eco-friendly** - fewer materials, lower footprint  
+- *all-in-one* DIN device  
+- space saving - one instead of 3-4  
+- lower energy & heat  
+- lower cost  
+- eco-friendly - fewer materials, lower footprint  
 
 <img width="1500" alt="HAOS 1" src="https://github.com/user-attachments/assets/c1a6d8ba-f9d2-4d24-92b4-20bf02450188" />  
 📷 **NASwebio with HAOS**

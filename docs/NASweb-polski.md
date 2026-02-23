@@ -13,7 +13,7 @@
 - system powiadomień i integracji zewnętrznych  
 
 !!! question ""
-    Dzięki temu **jedno urządzenie** zastępuje wiele systemów, upraszczając instalację i obniżając koszty.  
+    Dzięki temu, **jedno urządzenie** zastępuje wiele systemów, upraszczając instalację i obniżając koszty.  
 
 ---
 
@@ -24,12 +24,13 @@ Największą zaletą NASwebio jest **synergia** - połączenie funkcji daje znac
 ### Przykład 1: Alarm + kontrola dostępu
 **Osobno**
 
-- alarm chroni budynek, kontrola dostępu wpuszcza tylko uprawnionych
+- alarm chroni budynek
+- kontrola dostępu wpuszcza tylko uprawnionych
 
 **Razem** 
 
-- karta nie tylko otwiera drzwi, ale też **uzbraja/rozbraja strefę**  
-- dostęp kartą do strefy może być **zablokowany, gdy strefa jest uzbrojona**  
+- karta nie tylko otwiera drzwi, ale też **uzbraja/rozbraja** strefę  
+- dostęp kartą do strefy może być **zablokowany**, gdy strefa jest **uzbrojona**  
 - jeśli ostatni użytkownik opuści strefę, system **automatycznie ją uzbroi**  
 
 !!! success "Efekt"
@@ -54,8 +55,9 @@ Czujniki temperatury sterują przekaźnikami w **trzech stanach**:
 
 ### Przykład 3: Rejestracja zdarzeń + wideo
 
-- Każde zdarzenie (np. naruszenie czujnika, odczyt karty) może być powiązane ze zdjęciem z kamery 
-- Administrator widzi: _Jan Kowalski otworzył drzwi o 10:05_ + **zdjęcie z tego momentu**
+Każde zdarzenie (np. naruszenie czujnika, odczyt karty) może być powiązane ze zdjęciem z kamery:
+
+- administrator widzi: *Jan Kowalski otworzył drzwi o 10:05* + **zdjęcie z tego momentu**
 
 !!! success "Efekt"
     Szybsza weryfikacja i reagowanie.
@@ -106,14 +108,14 @@ Zamiast kluczy używane są karty, PIN-y, biometryka czy tablice rejestracyjne.
 
 #### Dziedziczenie, sumowanie i negacja uprawnień
 
-- System **sumuje uprawnienia (OR)** z wielu wzorców oraz z praw indywidualnych - dzięki temu użytkownik zyskuje **wszystkie** dostępy nadane w którymkolwiek źródle
-- **Negacja (odebranie prawa)** działa jak _uprawnienie z odwróconym znakiem_ i **kasuje dostęp**, nawet jeśli został on przyznany w innym miejscu 
+- System **sumuje uprawnienia** (OR) z wielu wzorców oraz z praw indywidualnych - dzięki temu użytkownik zyskuje **wszystkie** dostępy nadane w którymkolwiek źródle
+- **Negacja** (*odebranie prawa*) działa jak *uprawnienie z odwróconym znakiem* i **kasuje dostęp**, nawet jeśli został on przyznany w innym miejscu 
 
 - **Priorytety rozstrzygania konfliktów:**   
 
     1\. **Negacja** > **przyznanie** (negacja wygrywa)  
     2\. **Uprawnienia indywidualne** > **wzorcowe** (prawa indywidualne są nadrzędne)  
-    3\. Harmonogram: dostęp jest aktywny, gdy jest aktywny w **co najmniej jednym** źródle (chyba że w tym czasie działa negacja)  
+    3\. Harmonogram: dostęp jest aktywny, gdy jest aktywny w **co najmniej jednym** źródle (chyba, że w tym czasie działa negacja)  
 
 !!! example "Przykład negacji"
     Cała grupa „Pracownicy” ma dostęp do *Serwerowni*, ale jednemu użytkownikowi przypisujesz **indywidualne odebranie** - w efekcie **wszyscy** mają, a **on jeden nie**.
@@ -137,7 +139,7 @@ Przy naruszeniu - uruchamia alarm i powiadamia ochronę.
 - wejścia są przypisywane do **stref alarmowych** (np. biuro, magazyn) 
 - strefy można uzbrajać/rozbrajać kartą  
 - wyjścia sterują syrenami i automatyką 
-- integracja z KD: karta rozbraja strefę przy wejściu  
+- integracja z KD - karta rozbraja strefę przy wejściu  
 
 <img width="1424" alt="Konfiguracja wejść" src="https://github.com/user-attachments/assets/b95df204-3a53-49bc-9c1f-cd022b3c3b29" />  
 📷 **Konfiguracja wejść**
@@ -157,16 +159,16 @@ Przy naruszeniu - uruchamia alarm i powiadamia ochronę.
 - czujnik temperatury 1-Wire  
 - **trzy stany** z dokładnie **jednym** wyjściem na każdy stan:  
 
-    - poniżej zakresu – (np.) ogrzewanie  
-    - w zakresie – (np.) wentylacja  
-    - powyżej zakresu – (np.) chłodzenie
+    - **poniżej zakresu** - (np.) ogrzewanie  
+    - **w zakresie** - (np.) wentylacja  
+    - **powyżej zakresu** - (np.) chłodzenie
 
 !!! warning "Wyjścia"
     **To samo wyjście** może być wskazane w różnych stanach, jeśli tak chcesz.  
     Jeśli potrzebujesz **kilku wyjść jednocześnie** dla danego stanu, użyj **skryptów** lub zewnętrznego sprzęgła.
 
 !!! example "Przykład"
-    W strefie *Magazyn* kontroler włącza wentylację w przedziale 20–28 °C.  
+    W strefie *Magazyn* kontroler włącza wentylację w przedziale 20-28 °C.  
     Po przekroczeniu 28 °C steruje wyjściem zdefiniowanym dla stanu „powyżej” (np. chłodzenie).  
 
 <img width="1178" alt="Konfiguracja HVAC" src="https://github.com/user-attachments/assets/9cc6816a-d7f5-4848-abed-ca9bfba9cb13" />  
@@ -180,7 +182,7 @@ Przy naruszeniu - uruchamia alarm i powiadamia ochronę.
 📷 **Kamery / Campics**
 
 - powiązanie zdarzeń z obrazami (moduł *Campics*) 
-- obsługa kamer **ANPR**  
+- obsługa kamer ANPR  
 - filtrowanie i szybka weryfikacja  
 
 ---
@@ -237,7 +239,7 @@ Silnik skryptowy (składnia podobna do `JavaScript`):
 
 ## 12. Aplikacje projektowe
 
-- np. posterunek wjazdu/wyjazdu z **ANPR**  
+- np. posterunek wjazdu/wyjazdu z ANPR 
 - rejestracja zdjęć załadunku  
 - czasowe uprawnienia transportowe  
 
@@ -268,7 +270,7 @@ Silnik skryptowy (składnia podobna do `JavaScript`):
 | Obudowa               | Szyna DIN, 10 modułów                                   |
 | Terminale             | Rozłączalne bloki                                       |
 | USB                   | pamięci i urządzenia USB                                |
-| Wyjścia przekaźnikowe | 6× (2 A @ 12 V DC)                                         |
+| Wyjścia przekaźnikowe | 6× (2 A @ 12 V DC)                                      |
 | Wejścia cyfrowe       | 16×                                                     |
 | Czytniki              | do 4 (RS-485 OSDP)                                      |
 | Kamery                | do 4 (snapshot / ANPR)                                  |
@@ -307,11 +309,11 @@ NASwebio dostępny także jako **haos.app**:
 
 ### Zalety
 
-- **all-in-one** w jednej obudowie DIN  
-- **oszczędność miejsca** - 1 zamiast 3-4 urządzeń  
-- **mniej energii i ciepła** 
-- **niższe koszty**  
-- **ekologia** - mniej plastiku, metalu, elektroniki  
+- *all-in-one* w jednej obudowie DIN  
+- oszczędność miejsca - 1 zamiast 3-4 urządzeń  
+- mniej energii i ciepła
+- niższe koszty 
+- ekologia - mniej plastiku, metalu, elektroniki  
 
 <img width="1500" alt="HAOS instalacja 1" src="https://github.com/user-attachments/assets/c1a6d8ba-f9d2-4d24-92b4-20bf02450188" />  
 📷 **Instalacja NASweb z HAOS**

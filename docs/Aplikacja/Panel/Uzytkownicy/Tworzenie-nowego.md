@@ -1,10 +1,12 @@
 # Nowy użytkownik
 
-Aby dodać nowego użytkownika, kliknij przycisk `+ NOWY` w lewym górnym rogu:
-<img width="300"  alt="obraz" src="https://github.com/user-attachments/assets/8923232e-a19f-454d-bc22-9c7cce70f134" />
+1. Aby dodać nowego użytkownika, kliknij przycisk `+ NOWY` w lewym górnym rogu:
 
-Po kliknięciu otworzy się panel, w którym należy wprowadzić dane nowego użytkownika:
-<img width="300" alt="obraz" src="https://github.com/user-attachments/assets/d8cf2ec4-e64a-4bb5-b233-4a87f1ce49c4" />
+    <img width="300"  alt="obraz" src="https://github.com/user-attachments/assets/8923232e-a19f-454d-bc22-9c7cce70f134" />
+
+2. Po kliknięciu otworzy się panel, w którym należy wprowadzić dane nowego użytkownika:
+
+    <img width="300" alt="obraz" src="https://github.com/user-attachments/assets/d8cf2ec4-e64a-4bb5-b233-4a87f1ce49c4" />
 
 ## Zakładka info
 Zawiera podstawowe informacje o użytkowniku:

@@ -21,29 +21,34 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 nav:
   - Start: 
     - index.md
+  - Informacje techniczne:
+    - Home.md
+    - NASweb-polski.md
+    - NASweb-english.md
   - Aplikacja:
     - Aplikacja/index.md
-    - Aplikacja/Aplikacja.md
+    - Aplikacja/Logowanie.md
     - Panel: 
       - Aplikacja/Panel/Pulpit.md
       - Aplikacja/Panel/Urzadzenie.md
       - Aplikacja/Panel/Monitor-zdarzen.md
 
       - Kontrola dostępu:
-        - Aplikacja/Panel/Uzytkownicy.md
-        - Aplikacja/Panel/Karty.md
-        - Aplikacja/Panel/Wzorce-uprawnien.md
-        - Aplikacja/Panel/Przejscia-i-Czytniki.md
+        - Aplikacja/Panel/KD/Uzytkownicy.md
+        - Aplikacja/Panel/KD/Karty.md
+        - Aplikacja/Panel/KD/Wzorce-uprawnien.md
+        - Aplikacja/Panel/KD/Przejscia-i-Czytniki.md
 
       - SSWiN:
-        - Aplikacja/Panel/Strefy.md
-        - Aplikacja/Panel/Wejscia.md
-        - Aplikacja/Panel/Wyjscia-strefy.md
+        - Aplikacja/SSWiN/Strefy.md
+        - Aplikacja/SSWiN/Wejscia.md
+        - Aplikacja/SSWiN/Wyjscia-przypisane-do-strefy.md
 
       - Aplikacja/Panel/Wideorejestracja.md
       - Aplikacja/Panel/Status.md
@@ -61,11 +66,17 @@ nav:
         - Ustawienia/Linki-zewnetrzne.md
         
       - Skrypty:
-        - Aplikacja/Panel/Pliki-skryptow.md
-        - Aplikacja/Panel/Filtry-skryptow.md
-        - Aplikacja/Panel/Logi-skryptow.md
+        - Aplikacja/Panel/Skrypty/Pliki-skryptow.md
+        - Aplikacja/Panel/Skrypty/Filtry-skryptow.md
+        - Aplikacja/Panel/Skrypty/Logi-skryptow.md
 
       - Aplikacja/Panel/Admin.md
+
+    - Opcje dodatkowe:
+      - Aplikacja/Panel/Uzytkownicy/Edycja.md
+      - Aplikacja/Panel/Uzytkownicy/Tworzenie-nowego.md
+      - Aplikacja/Panel/Uzytkownicy/Menu-szybkiej-zmiany.md
+
   - Kontroler:
     - Kontroler/index.md
   - Home Assistant:
@@ -73,9 +84,12 @@ nav:
     - HomeAssistant/Instalacja-integracji.md
   - Dodatki:
     - Dodatki/index.md
-  - Informacje techniczne:
-    - Home.md
-    - NASweb-polski.md
-    - NASweb-english.md
+    - Dodatki/Tworzenie_powiadomienia.md
+    - Dodatki/Dodanie-nowej-karty.md
+    - Dodatki/Tworzenie-skryptu.md
+    - Dodatki/Dodanie-Campics.md
+
   - FAQ:
     - FAQ/index.md
+    - FAQ/NASwebio.md
+    - FAQ/NASweb.md

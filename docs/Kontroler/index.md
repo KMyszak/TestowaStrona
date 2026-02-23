@@ -2,22 +2,22 @@
 
 <img width="255"  alt="obraz" align="left" src="https://github.com/user-attachments/assets/98e7a912-1cca-4e40-b654-f426680bf081" />
 
-`NASwebio` to multisystemowy sterownik automatyki budynkowej, który stanowi rozwiązanie typu all-in-one, a dzięki wbudowanej aplikacji webowej `NASweb` nie potrzebuje specjalnych aplikacji.
+**NASwebio** to multisystemowy sterownik automatyki budynkowej typu *all-in-one*. Dzięki wbudowanej aplikacji webowej [**NASweb**](../Aplikacja/index.md) nie wymaga instalowania dodatkowego oprogramowania.
 
-Urządzenie stanowi kompromis pomiędzy nowoczesną kontrolą dostępu, alarmem antywłamaniowym, telewizją przemysłową, a&nbsp;automatyzacją z&nbsp;inteligentnymi powiadomieniami i łatwością obsługi lokalnej lub w chmurze.
+Urządzenie łączy nowoczesną kontrolę dostępu, alarm antywłamaniowy, telewizję przemysłową oraz funkcje automatyzacji z inteligentnymi powiadomieniami, umożliwiając wygodną obsługę zarówno lokalnie, jak i w chmurze.
 
-Kontroler wyposażony jest w dwa niezależne źródła (PoE+ oraz 12 V DC), które mogą pracować **równocześnie** (redundancja) - odłączenie jednego nie przerywa pracy, przez co osiągamy większą **niezawodność** w małych instalacjach bez dodatkowych UPS/adapterów.
+Kontroler wyposażony jest w dwa niezależne źródła zasilania (PoE+ oraz 12 V DC), które mogą pracować **równocześnie** (redundancja). Odłączenie jednego źródła nie przerywa pracy, co zwiększa **niezawodność** w&nbsp;małych instalacjach bez dodatkowych UPS/adapterów.
 
-**Kontroler** `NASwebio` **pozwala na**:
+**Kontroler umożliwia**:
 
 - podłączenie kamer IP
 - podłączenie kamer ANPR (automatyczne rozpoznawanie numerów rejestracyjnych)
-- czytników SKD (system kontroli dostępu)
-- czujników dymu
-- czujników temperatury
-- czujek PIR (czujnik ruchu)
-- zegarów
-- liczników energii elektrycznej
+- integrację czytników SKD (system kontroli dostępu)
+- podłączenie czujników dymu
+- podłączenie czujników temperatury
+- podłączenie czujek PIR (czujnik ruchu)
+- integrację zegarów
+- monitorowanie liczników energii elektrycznej
 
 ## Karta katalogowa
 

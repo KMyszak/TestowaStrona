@@ -4,11 +4,21 @@ hide:
   - toc
 ---
 
-# NASweb / NASwebio
+# NASweb
 
 <div class="grid cards" markdown>
 
-- :material-laptop:{ .lg .middle } __Aplikacja__
+- :material-cog:{ .lg .middle } __Informacje techniczne__
+
+    ---
+
+    Zapoznaj się z pełną dokumentacją systemu obejmującą architekturę, funkcje oraz działanie.
+
+    ---
+
+    [:octicons-arrow-right-24: Więcej](Aplikacja/Logowanie.md)
+
+- :material-application:{ .lg .middle } __Aplikacja__
 
     ---
 
@@ -16,7 +26,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](../Aplikacja/Aplikacja)
+    [:octicons-arrow-right-24: Więcej](Aplikacja/Logowanie.md)
 
 - :material-chip:{ .lg .middle } __Kontroler__
 
@@ -26,7 +36,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](../Kontroler/)
+    [:octicons-arrow-right-24: Więcej](Kontroler/index.md)
 
 - :material-home-assistant:{ .lg .middle } __Home Assistant__
 
@@ -36,7 +46,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](../HomeAssistant/Home-Assistant-Operating-System)
+    [:octicons-arrow-right-24: Więcej](HomeAssistant/Home-Assistant-Operating-System.md)
 
 - :material-puzzle-outline:{ .lg .middle } __Dodatki__
 
@@ -46,7 +56,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](../Dodatki/)
+    [:octicons-arrow-right-24: Więcej](Dodatki/index.md)
 
 - :material-help:{ .lg .middle } __FAQ__
 
@@ -56,7 +66,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](../FAQ/)
+    [:octicons-arrow-right-24: Więcej](FAQ/index.md)
 
 - :material-domain:{ .lg .middle } __Chomtech__
 
