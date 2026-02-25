@@ -15,18 +15,18 @@ Każde wejście może pracować w jednym z poniższych trybów:
 
 Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 
-**Działanie wejścia:**
+#### Działanie wejścia
 
 - rejestruje zdarzenia związane z ruchem osób (np. otwarcie drzwi, przycisk wyjścia, kontaktron)
 - stan wejścia wpływa na logikę przejścia (otwarcie / zamknięcie / naruszenie)
 
-!!! example "Przykładowe zastosowania"
+#### Przykładowe zastosowania
 
-    - kontaktron drzwiowy
-    - przycisk wyjścia 
-    - czujnik stanu drzwi
+- kontaktron drzwiowy
+- przycisk wyjścia 
+- czujnik stanu drzwi
 
-**Obsługiwane zdarzenia:**
+#### Obsługiwane zdarzenia
 
 - otwarcie drzwi
 - zamknięcie drzwi
@@ -35,7 +35,7 @@ Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 
 !!! warning "Uwaga"
     
-    Wejście **nie generuje** alarmów **SSWiN** - zdarzenia są widoczne **wyłącznie** w module **KD**
+    Wejście **nie generuje** alarmów **SSWiN** - zdarzenia są widoczne **wyłącznie** w module **KD**.
 
 ---
 
@@ -43,19 +43,19 @@ Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 
 Wejście pracuje **wyłącznie** jako linia alarmowa.
 
-**Działanie wejścia:**
+#### Działanie wejścia:
 
 - monitoruje stan czujnika alarmowego
 - naruszenie wejścia powoduje wygenerowanie zdarzenia alarmowego
 
-!!! example "Przykładowe zastosowania"
+#### Przykładowe zastosowania
 
-    - czujnik ruchu PIR
-    - kontaktron okna
-    - czujnik zbicia szyby
-    - przycisk napadowy
+- czujnik ruchu PIR
+- kontaktron okna
+- czujnik zbicia szyby
+- przycisk napadowy
 
-**Obsługiwane zdarzenia:**
+#### Obsługiwane zdarzenia
 
 - naruszenie linii
 - alarm
@@ -73,25 +73,25 @@ Wejście pracuje **wyłącznie** jako linia alarmowa.
 
 Wejście pracuje jednocześnie w obu systemach.
 
-**Działanie wejścia:**
+#### Działanie wejścia
 
 - ten sam sygnał wejściowy jest analizowany równolegle przez **KD** i **SSWiN**
 - zależnie od kontekstu, wejście może generować zdarzenia dostępu lub alarmowe
 
-!!! example "Przykładowe zastosowania"
+#### Przykładowe zastosowania
 
-    - kontaktron drzwiowy chronionych stref  
-    - drzwi wejściowe do obiektu  
-    - drzwi w strefie alarmowej  
+- kontaktron drzwiowy chronionych stref  
+- drzwi wejściowe do obiektu  
+- drzwi w strefie alarmowej  
 
-**Obsługiwane zdarzenia:**
+#### Obsługiwane zdarzenia
 
 - otwarcie / zamknięcie drzwi (**KD**)
 - alarm otwarcia przy uzbrojonym systemie (**SSWiN**)
 - nieautoryzowane otwarcie drzwi
 - alarm sabotażowy
 
-**Przykład logiki:**  
+#### Przykład logiki
 
 - system rozbrojony → wejście działa jak **KD**  
 - system uzbrojony → otwarcie drzwi powoduje alarm **SSWiN**  
@@ -99,4 +99,4 @@ Wejście pracuje jednocześnie w obu systemach.
 
 !!! warning "Uwaga"
 
-    Tryb **zalecany** dla wejść drzwiowych w chronionych strefach
+    Tryb **zalecany** dla wejść drzwiowych w chronionych strefach.

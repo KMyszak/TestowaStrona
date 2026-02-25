@@ -14,7 +14,7 @@ CMS służy do centralnego zarządzania treściami wyświetlanymi w systemie, be
 ## Chmura
 Moduł umożliwia archiwizację danych poza lokalną infrastrukturą.
 
-**Co może trafiać do chmury:**
+#### Co może trafiać do chmury
 
 - użytkownicy
 - karty
@@ -29,13 +29,13 @@ Moduł umożliwia archiwizację danych poza lokalną infrastrukturą.
 
 Mechanizm odpowiedzialny za przekazywanie informacji o zdarzeniach do innych systemów lub usług.
 
-**Jakie zdarzenia:**
+#### Jakie zdarzenia
 
 - alarmy
 - naruszenia
 - zdarzenia techniczne i użytkowników
 
-**Zastosowanie:**
+#### Zastosowanie
 
 - powiadamianie operatorów
 - integracja z systemami nadrzędnymi
@@ -47,13 +47,13 @@ Mechanizm odpowiedzialny za przekazywanie informacji o zdarzeniach do innych sys
 
 Pozwala na wymianę danych z innymi systemami IT.
 
-**W jakim celu:**
+#### Co umożliwia
 
-- synchronizacja danych
+- synchronizację danych
 - centralne logowanie zdarzeń
-- integracja z BMS, PSIM, SIEM, ERP itp.
+- integrację z BMS, PSIM, SIEM, ERP itp.
 
-**Przykładowe integracje:**
+#### Przykładowe integracje
 
 - serwery monitoringu
 - systemy zarządzania budynkiem (BMS)
@@ -65,13 +65,13 @@ Pozwala na wymianę danych z innymi systemami IT.
 
 LDAP to protokół służący do integracji z usługami katalogowymi.
 
-**W jakim celu:**
+#### W jakim celu
 
 - centralne zarządzanie użytkownikami
 - jedno konto do wielu systemów
 - spójna polityka haseł i uprawnień
 
-**Co zapewnia LDAP:**
+#### Co zapewnia
 
 - logowanie użytkowników domenowych
 - przypisywanie ról na podstawie grup

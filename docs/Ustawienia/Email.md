@@ -16,9 +16,10 @@ System może wysyłać e-maile w reakcji na określone sytuacje, np.:
 - restart systemu
 - utrata łączności 
 - błędy krytyczne
-<img width="450" align="right" alt="obraz" src="https://github.com/user-attachments/assets/47af9a4d-49ab-4590-9a05-2a0d40cde886" />
 
 E-mail trafia do administratora / ochrony / serwisu.
+
+<img width="400" align="right" alt="obraz" src="https://github.com/user-attachments/assets/47af9a4d-49ab-4590-9a05-2a0d40cde886" />
 
 - **Użytkownik** - nazwa użytkownika
 - **Hasło** - hasło do konta

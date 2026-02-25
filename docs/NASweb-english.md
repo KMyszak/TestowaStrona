@@ -13,7 +13,7 @@ It unifies functions typically provided by several separate devices:
 - notification and external integrations  
 
 !!! question ""
-    One device replaces many systems, simplifying installation and reducing costs.
+    **One device** replaces many systems, simplifying installation and reducing costs.
 
 ---
 

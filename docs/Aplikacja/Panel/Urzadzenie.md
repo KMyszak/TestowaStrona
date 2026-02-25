@@ -1,6 +1,6 @@
 # Urządzenie
 
-Panel wyświetla wszystkie kluczowe informacje dotyczące oprogramowania kontrolera oraz jego pamięci.  
+Panel wyświetla wszystkie **kluczowe informacje** dotyczące oprogramowania kontrolera oraz jego pamięci.  
 Dodatkowo prezentuje podsumowanie dotyczące użytkowników, uprawnień oraz kart zapisanych w&nbsp;systemie.  
 
 ## Dodatkowe opcje

@@ -11,11 +11,11 @@ Edycji **wyjścia** dokonujemy przez przejście do kolumny `Opcje` i kliknięcie
 
 ### 0: Nie używane  
 
-Wyjście jest **nieaktywne**, nie wykonuje żadnej akcji ani nie generuje alarmów  
+Wyjście jest **nieaktywne**, nie wykonuje żadnej akcji ani nie generuje alarmów.  
 
 ### 1: Alarm
 
-Wyjście aktywuje się podczas **alarmu włamaniowego** (głośnego)  
+Wyjście aktywuje się podczas **alarmu włamaniowego** (głośnego).  
 Najczęściej wykorzystywane do:
 
 - **syreny** zewnętrznej
@@ -24,17 +24,17 @@ Najczęściej wykorzystywane do:
 
 ### 2: Usterka 
 
-Służy do powiadomień technicznych (np. sygnalizator LED, przekaźnik do **BMS**)  
+Służy do powiadomień technicznych (np. sygnalizator LED, przekaźnik do **BMS**).  
 Wyjście reaguje na stany awaryjne:
 
 - **brak** zasilania AC
-- niski akumulator centrali
+- niska pojemność akumulatora centrali
 - **uszkodzenia** modułów
 - **awarie** komunikacji itp.  
 
 ### 3: Sabotaż
 
-Używane do powiadamiania o naruszeniu zabezpieczeń obudowy  
+Używane do powiadamiania o naruszeniu zabezpieczeń obudowy. 
 Wyjście uruchamia się przy:
 
 - **otwarciu** obudowy
@@ -43,7 +43,7 @@ Wyjście uruchamia się przy:
 
 ### 4: Cichy alarm
 
-Wyjście aktywuje się przy alarmie cichym (silent)  
+Wyjście aktywuje się przy alarmie cichym (silent).  
 Wykorzystywane przy:
 
 - **alarmie** napadowym
@@ -54,12 +54,12 @@ Wykorzystywane przy:
 
 ## Limit czasu - do czego służy?
 
-limit czasu (czas aktywacji wyjścia) określa jak długo wyjście ma pozostać aktywne po wystąpieniu zdarzenia:  
+Limit czasu (czas aktywacji wyjścia) określa jak długo wyjście ma pozostać aktywne po wystąpieniu zdarzenia:  
 
-- To **NIE** jest opóźnienie przed zadziałaniem
-- To jest **czas trwania** działania wyjścia
+- to **NIE** jest opóźnienie przed zadziałaniem
+- to jest **czas trwania** działania wyjścia
 
-**Co dokładnie robi limit czasu?**
+####  Co dokładnie robi limit czasu?
 
 Kiedy wydarzy się zdarzenie (np. alarm), to:
 
@@ -67,19 +67,26 @@ Kiedy wydarzy się zdarzenie (np. alarm), to:
 - pracuje przez ustawiony **limit czasu** (np. 30 s, 120 s, 3 min)
 - po upływie tego czasu wyjście automatycznie się **wyłącza**
 
-## Przykłady użycia limitu
+### Przykłady użycia limitu
 
 **Syrena alarmowa (typ 1)**  
 
-Limit czasu = 120 s  
-↳ syrena wyje przez 120 sekund, potem wyłącza się automatycznie  
+*Limit czasu = 120 s*  
+Syrena wyje przez 120 sekund, potem wyłącza się automatycznie  
 
 **Wyjście sabotażu (typ 3)**  
 
-Limit czasu = 300 s  
-↳ wyjście działa 5 minut, po wykryciu sabotażu, potem wyłącza się automatycznie
+*Limit czasu = 300 s*  
+Wyjście działa 5 minut, po wykryciu sabotażu, potem wyłącza się automatycznie
 
 **Cichy alarm do monitoringu (typ 4)**  
 
-Limit = 5 s  
-↳ wysyła 5-sekundowy impuls do integracji lub nadajnika  
+*Limit czasu = 5 s*  
+Wysyła 5-sekundowy impuls do integracji lub nadajnika  
+
+!!! info "Typy: 0 i 2"
+
+    **Typ 0** (*Nie używane*) i **typ 2** (*Usterka*) zazwyczaj nie korzystają z limitu czasu w tradycyjnym sensie, bo:
+
+    - **typ 0** jest nieaktywny, więc *limit czasu* nie ma sensu
+    - **typ 2** często jest trwałym sygnałem technicznym, który działa dopóki problem nie zostanie usunięty, więc *limit czasu* zwykle się nie ustawia

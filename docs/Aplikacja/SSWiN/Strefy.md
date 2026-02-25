@@ -22,10 +22,10 @@ Panel w przejrzysty sposób przedstawia utworzone strefy ze wszystkimi ważnymi 
 
 Bo pozwalają:
 
-- uzbroić parter na noc, ale zostawić piętro rozbrojone
-- uzbroić garaż zawsze niezależnie od domu
-- pozwolić pracownikom wejść tylko do części budynku
-- sterować automatyką inaczej w różnych obszarach
+- uzbrajać wybrane sekcje przy jednoczesnym pozostawieniu innych obszarów w stanie rozbrojonym
+- utrzymywać stałe uzbrojenie wybranych części, niezależnie od stanu pozostałych stref
+- ograniczać dostęp użytkowników do określonych obszarów na podstawie uprawnień
+- realizować różne scenariusze automatyki w zależności od strefy
 
 ---
 

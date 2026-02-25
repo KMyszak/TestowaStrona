@@ -4,7 +4,7 @@ Panel pozwala przeglądać listę istniejących użytkowników i tworzyć nowych
 
 **Użytkownik** reprezentuje osobę korzystającą z systemu, która posiada:
 
-- **dane personalne**
+- dane **personalne**
 - przypisane **uprawnienia** 
 - powiązane **identyfikatory** (np. karty dostępu)
 

@@ -3,7 +3,7 @@
 **NASweb** to kompleksowe rozwiązanie w zakresie bezpieczeństwa i automatyki budynkowej.   
 System składa ze specjalistycznego [**kontrolera**](../Kontroler/index.md) oraz dedykowanego oprogramowania.   
 
-Kontroler umożliwia podłączenie **kamer IP**, **ANPR**, **czytników SKD**, **czujników dymu**, **temperatury**, **czujek PIR**, **zegarów**, **liczników energii elektrycznej** oraz wielu innych urządzeń wchodzących w skład automatyki i zabezpieczeń technicznych obiektu.  
+Kontroler umożliwia podłączenie kamer IP, ANPR, czytników SKD, czujników dymu, temperatury, czujek PIR, zegarów, liczników energii elektrycznej oraz wielu innych urządzeń wchodzących w skład automatyki i zabezpieczeń technicznych obiektu.  
 
 Oprogramowanie działa w chmurze danych i jest udostępnione w modelu SaaS. Użytkownik końcowy może pracować **lokalnie**, korzystać z **darmowej chmury publicznej**, a także łatwo zintegrować rozwiązanie z własną chmurą komercyjną, co pozwala zapewnić klientom lepszą obsługę i większą elastyczność.  
 
@@ -28,7 +28,7 @@ System umożliwia zarządzanie wieloma obiektami jednocześnie, bez żadnych ogr
 - inteligentny system antywłamaniowy 
 - powiadomienia wideo 
 - rozbudowane powiadomienia przez SMS i e-mail z załącznikami zdjęć 
-- uzbrajanie i rozbrajanie stref alarmowych przez SMS GSM, PIN, kartę dostępu, PC lub telefon
+- uzbrajanie i rozbrajanie stref alarmowych przez SMS (GSM), PIN, kartę dostępu, PC lub telefon
 - odmowa dostępu do uzbrojonych stref 
 - powiadomienia tekstowe (GSM) i e-mail w przypadku wystąpienia zdarzenia
 - integracja kamer ANPR i zarządzanie dostępem na podstawie tablic rejestracyjnych

@@ -17,7 +17,7 @@ Pojawi się panel, w którym możemy wybrać sposób dodawania nowej karty:
 - **Importuj z pliku** - zaczytanie karty z pliku (`.CSV`)
 - **Wprowadź kartę z czytnika** - karta zostaje odczytana automatycznie przez wybrany czytnik
 
-    <img width="450" alt="obraz" src="https://github.com/user-attachments/assets/75b8504c-b9c6-43fa-baf7-8fd3dbeedb48" />
+    <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/75b8504c-b9c6-43fa-baf7-8fd3dbeedb48" />
 
 ## Zmiana statusu
 
@@ -27,5 +27,8 @@ W celu zmiany statusu **karty** (lub kart) należy zaznaczyć wybrane pozycje, a
 
 Wybierz **status** i zatwierdź zmianę:
 
-<img width="450" alt="obraz" src="https://github.com/user-attachments/assets/6aacd9b5-4208-4e6b-8e5c-6e6af8141b9c" />
+<img width="400" alt="obraz" src="https://github.com/user-attachments/assets/6aacd9b5-4208-4e6b-8e5c-6e6af8141b9c" />
 
+## Format karty
+
+Aby dowiedzieć się więcej na temat formatu kart przejdź do [Konfiguracja formatu kart](../../Ustawienia/Konfiguracja-formatu-kart/)
