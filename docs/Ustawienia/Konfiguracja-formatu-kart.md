@@ -2,43 +2,67 @@
 
 ## Format karty 
 
-Sposób zakodowania danych na karcie dotępu.
+**Format karty** określa sposób rozmieszczenia i interpretacji bitów zakodowanych na karcie dostępu.  
+Aplikacja umożliwia wybór trzech popularnych formatów standardu **Wiegand** oraz przygotowanie **własnego, w pełni konfigurowalnego** schematu kodowania.
 
-#### H10301    
+<div class="grid cards" markdown>
 
-Najpopularniejszy format zawierający numer obiektu (facility code) i numer karty.
+- __H10301__
 
-- **Ilość bitów:** 26
-- **Bity Prefixu:** 2-9
-- **Bity Numeru:** 10-25
+    ---
 
----
+    Najpopularniejszy format zawierający kod obiektu (*facility code*) i numer karty.
 
-#### H10302  
+    ---
 
-Bardzo duży zakres numerów kart (bez kodu obiektu) - kontroler identyfikuje kartę **wyłącznie po numerze**.
+    - **Liczba bitów:** 26  
+    - **Bity Prefixu:** 2–9  
+    - **Bity Numeru:** 10–25
 
-- **Ilość bitów:** 37
-- **Bity Prefixu:** brak
-- **Bity Numeru:** 2-36
+    ---
 
----
 
-#### H10304  
+- __H10302__
 
-Rozszerzona wersja dla większej liczby pracowników i wielu obiektów.
+    ---
 
-- **Ilość bitów:** 37
-- **Bity Prefixu:** 2-17
-- **Bity Numeru:** 18-36
+    Bardzo duży zakres numerów kart, bez kodu obiektu (*facility code*).
 
----
+    ---
 
-#### dodatkowe   
+    - **Liczba bitów:** 37  
+    - **Bity Prefixu:** brak  
+    - **Bity Numeru:** 2–36
 
-Umożliwia **pełną** konfigurację karty.
+    ---
 
-- **Nazwa**
-- **Ilość bitów**
-- **Bity Prefixu**
-- **Bity Numeru**
+- __H10304__
+
+    ---
+
+    Rozszerzona wersja dla większej liczby pracowników i wielu obiektów.
+
+    ---
+
+    - **Liczba bitów:** 37  
+    - **Bity Prefixu:** 2–17  
+    - **Bity Numeru:** 18–36
+
+    ---
+
+- __Dodatkowe__
+
+    ---
+
+    Umożliwia **pełną** konfigurację karty.
+
+    ---
+
+    - **Nazwa**  
+    - **Liczba bitów**  
+    - **Bity Prefixu**  
+    - **Bity Numeru**
+
+    ---
+
+</div>

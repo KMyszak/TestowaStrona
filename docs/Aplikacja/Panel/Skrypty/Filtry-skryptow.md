@@ -1,9 +1,14 @@
 # Filtry skryptów
 
+Zakładka **Filtry skryptów** umożliwia definiowanie reguł (*wyzwalaczy*), które uruchamiają wybrane skrypty w&nbsp;reakcji na określone zdarzenia w systemie.
+
+Dzięki filtrom można automatyzować działanie kontrolera - np. wykonywać skrypt przy zmianie stanu wejścia, aktywacji wyjścia lub wystąpieniu konkretnego zdarzenia systemowego.
 
 <img width="890" alt="obraz" src="https://github.com/user-attachments/assets/85dc6729-1af1-4580-9fb4-136f6e829e47" />
 
-- **String** - numer **wejścia** lub **wyjścia** przypisanego do wyzwalacza (wartość „0” jest zarezerwowana dla samego kontrolera)
+### Dostępne pola
+
+- **String** - numer **wejścia** lub **wyjścia** przypisanego do wyzwalacza (wartość `0` jest zarezerwowana dla samego kontrolera)
 - **Typ** - rodzaj źródła wyzwalacza: wejście, wyjście lub kontroler
 - **Akcja** - określa, co powoduje uruchomienie wyzwalacza (np. zmiana stanu wejścia, aktywacja wyjścia, zdarzenie z kontrolera)
 - **Plik skryptu** - skrypt wykonywany po wywołaniu wyzwalacza

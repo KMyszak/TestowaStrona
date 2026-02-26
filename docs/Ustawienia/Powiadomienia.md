@@ -14,20 +14,20 @@ Każde powiadomienie może korzystać z dowolnej kombinacji kanałów:
 
 Zmienia się tylko **szablon** oraz **warunek wyzwolenia**, ale dostępne kanały powiadamiania są identyczne:
 
-<img width="600" alt="obraz" src="https://github.com/user-attachments/assets/7c45b4dc-dedd-4788-9884-fdb4100c8e58" />
-
+<img width="755" height="189" alt="obraz" src="https://github.com/user-attachments/assets/e65c3004-4fe3-4344-a537-ac84c435ddfd" />
 
 ## Format powiadomienia
 
 Każde powiadomienie składa się z trzech elementów:
 
-### Typ zdarzenia <img width="320" align="right" alt="obraz" src="https://github.com/user-attachments/assets/5e5066e7-1147-494c-b0a7-db0a968c6d21" />
+### Typ zdarzenia 
 
+<img width="320" align="right" alt="obraz" src="https://github.com/user-attachments/assets/5e5066e7-1147-494c-b0a7-db0a968c6d21" />
 
 Określa, na jaki rodzaj sytuacji zareaguje system.
 Typ może dotyczyć m.in.:
 
-- wejścia / wyjścia kartą
+- wejścia/wyjścia kartą
 - błędu czytnika
 - alarmu SSWiN
 - sabotażu
@@ -35,14 +35,15 @@ Typ może dotyczyć m.in.:
 - próby dostępu
 - naruszenia czujek
 
-Każdy typ ma własne szczegóły i wyzwalacze.
+!!! info "Każdy typ ma własne szczegóły i wyzwalacze"
 
 ### Szablon 
 
-Szablon decyduje o treści oraz formie powiadomienia.
-
-W zależności od typu, szablon może zawierać:
 <img width="320" align="right" alt="obraz" src="https://github.com/user-attachments/assets/547a905c-fa58-4829-95d9-f0cc1bad027d" />
+
+Szablon decyduje o treści oraz formie powiadomienia.  
+W zależności od typu, szablon może zawierać:
+
 
 - nazwę szablonu
 - wybrany czytnik
@@ -51,7 +52,7 @@ W zależności od typu, szablon może zawierać:
 - numer telefonu
 - adres e-mail
 
-Szablony są różne, ponieważ różne zdarzenia wymagają innych danych.
+!!! info "Szablony są różne, ponieważ różne zdarzenia wymagają innych danych"
 
 ### Odbiorcy i metody wysyłki
 
@@ -61,7 +62,7 @@ Do powiadomień można przypisać:
 - numery telefonów (SMS)
 - adresy e-mail
 - powiadomienia push
-- zdjęcia z kamer (KAM1 / KAM2)
+- zdjęcia z kamer
 - treść tekstową
 
-Każde powiadomienie może mieć własnych odbiorców i własne kanały wysyłki.
+!!! info "Każde powiadomienie może mieć własnych odbiorców i własne kanały wysyłki"

@@ -18,7 +18,7 @@ Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 #### Działanie wejścia
 
 - rejestruje zdarzenia związane z ruchem osób (np. otwarcie drzwi, przycisk wyjścia, kontaktron)
-- stan wejścia wpływa na logikę przejścia (otwarcie / zamknięcie / naruszenie)
+- stan wejścia wpływa na logikę przejścia (otwarcie/zamknięcie/naruszenie)
 
 #### Przykładowe zastosowania
 

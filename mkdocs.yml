@@ -85,10 +85,10 @@ nav:
   - Dodatki:
     - Dodatki/index.md
     - Dodatki/Tworzenie_powiadomienia.md
-    - Dodatki/Dodanie-nowej-karty.md
     - Dodatki/Tworzenie-skryptu.md
+    - Dodatki/Dodanie-nowej-karty.md
     - Dodatki/Dodanie-Campics.md
-
+    - Dodatki/Dodanie-zewnetrznej-aplikacji.md
   - FAQ:
     - FAQ/index.md
     - FAQ/NASwebio.md

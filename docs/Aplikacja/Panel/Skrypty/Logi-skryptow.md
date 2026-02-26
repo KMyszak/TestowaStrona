@@ -1,5 +1,5 @@
 # Logi skryptów
 
-<img width="890" alt="obraz" src="https://github.com/user-attachments/assets/b7294ae7-1ee8-4344-af4e-795cf7ecfcc7" />
+<img width="1663" height="392" alt="obraz" src="https://github.com/user-attachments/assets/61ea92aa-57c8-4769-9165-129b7e9da827" />
 
 ---

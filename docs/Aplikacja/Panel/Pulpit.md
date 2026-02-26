@@ -1,14 +1,22 @@
 # Pulpit
 
-Główny panel aplikacji zapewnia szybki dostęp do najważniejszych funkcji systemu. 
+**Pulpit** to główny panel aplikacji pełni rolę centrum zarządzania systemem kontroli dostępu.  
+Umożliwia **szybki przegląd** stanu całego systemu, dostęp do najważniejszych funkcji oraz natychmiastową reakcję na zdarzenia.  
+
+**Pulpit** został zaprojektowany tak, aby użytkownicy mogli w jednym miejscu:
+
+- monitorować aktualny stan stref, czytników i wyjść 
+- przeglądać najnowsze zdarzenia i alarmy
+- kontrolować podłączone urządzenia w czasie rzeczywistym
+- szybko przechodzić do szczegółowych ustawień poszczególnych modułów
  
 ## Moduły 
 
 - **Strefy** - lista wszystkich stref z możliwością szybkiego uzbrajania i rozbrajania
-- **Kamery** - dostęp do skonfigurowanych kamer oraz ich podglądu na żywo
-- **10 ostatnich zdarzeń** - podgląd dziesięciu najnowszych zdarzeń w systemie
-- **Czytniki** - lista wszystkich czytników wraz z ich aktualnym stanem
-- **Wyjścia** - lista skonfigurowanych wyjść z możliwością ich ręcznego przełączenia
+- **Kamery** - podgląd i kontrola skonfigurowanych kamer, umożliwiająca obserwację na żywo
+- **10 ostatnich zdarzeń** - szybki przegląd dziesięciu najnowszych zdarzeń w systemie
+- **Czytniki** - lista wszystkich czytników, wraz z informacją o ich aktualnym stanie i dostępie
+- **Wyjścia** - podgląd wyjść systemu oraz możliwość ich ręcznego przełączania
 
 !!! info "Dodatkowe opcje"
 

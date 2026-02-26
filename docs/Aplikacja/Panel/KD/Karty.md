@@ -31,4 +31,4 @@ Wybierz **status** i zatwierdź zmianę:
 
 ## Format karty
 
-Aby dowiedzieć się więcej na temat formatu kart przejdź do [Konfiguracja formatu kart](../../Ustawienia/Konfiguracja-formatu-kart/)
+Aby dowiedzieć się więcej na temat formatu kart przejdź do [Konfiguracja formatu kart](../../../Ustawienia/Konfiguracja-formatu-kart.md)
