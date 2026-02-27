@@ -16,7 +16,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Więcej](Aplikacja/Logowanie.md)
+    [:octicons-arrow-right-24: Więcej](Home.md)
 
 - :material-application:{ .lg .middle } __Aplikacja__
 

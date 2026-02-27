@@ -1,6 +1,6 @@
 # Monitor zdarzeń
 
-Panel **Monitor zdarzeń** służy do centralnego przeglądu wszystkich operacji, zdarzeń i alarmów w systemie kontroli dostępu.    
+Panel **Monitor zdarzeń** służy do centralnego przeglądu wszystkich operacji, zdarzeń i alarmów w systemie.    
 
 Umożliwia użytkownikowi szybkie reagowanie na nieprawidłowości, przeglądanie historii oraz analizę aktywności użytkowników i urządzeń.
 
@@ -13,6 +13,8 @@ Panel pozwala wygodnie przeglądać dane dzięki szeregowi funkcji:
 - **Konfiguracja widoku** - wybór kolumn do wyświetlenia, ich kolejności oraz liczby wierszy na stronie
 - **Info1**, **Info2** - dodatkowe pola prezentujące szczegółowe informacje o zdarzeniu
 - **Eksport danych** - lista zdarzeń może zostać wyeksportowana do pliku `.XML`, `.CSV`, `.TXT` lub `.XLS`
+
+---
 
 ## Wskazówki
 

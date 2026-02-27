@@ -1,6 +1,6 @@
 # Logowanie
 
-<img alt="obraz" width="290px" align="right" src="https://github.com/user-attachments/assets/a2241128-504c-48a7-a755-af97b0a9089a" />
+<img alt="obraz" width="295" align="right" src="https://github.com/user-attachments/assets/a2241128-504c-48a7-a755-af97b0a9089a" />
 
 Do panelu logujemy się poprzez **IP** kontrolera [**NASwebio**](../Kontroler/index.md). Interfejs jest dostępny z poziomu przeglądarki na dowolnym urządzeniu (PC, tablet, smartfon).
   

@@ -1,6 +1,7 @@
 # Pulpit
 
-**Pulpit** to główny panel aplikacji pełni rolę centrum zarządzania systemem kontroli dostępu.  
+**Pulpit** to główny panel aplikacji pełniący rolę centrum zarządzania systemem kontroli dostępu.  
+
 Umożliwia **szybki przegląd** stanu całego systemu, dostęp do najważniejszych funkcji oraz natychmiastową reakcję na zdarzenia.  
 
 **Pulpit** został zaprojektowany tak, aby użytkownicy mogli w jednym miejscu:
@@ -10,6 +11,8 @@ Umożliwia **szybki przegląd** stanu całego systemu, dostęp do najważniejszy
 - kontrolować podłączone urządzenia w czasie rzeczywistym
 - szybko przechodzić do szczegółowych ustawień poszczególnych modułów
  
+---
+
 ## Moduły 
 
 - **Strefy** - lista wszystkich stref z możliwością szybkiego uzbrajania i rozbrajania
@@ -20,7 +23,7 @@ Umożliwia **szybki przegląd** stanu całego systemu, dostęp do najważniejszy
 
 !!! info "Dodatkowe opcje"
 
-    W prawym górnym rogu znajdują się szybkie ustawienia, umożliwiające:
+    W prawym górnym rogu znajdują się szybkie ustawienia umożliwiające:
 
     - zmianę **języka** interfejsu (na angielski)
     - zarządzanie aktualnie zalogowanym **użytkownikiem**

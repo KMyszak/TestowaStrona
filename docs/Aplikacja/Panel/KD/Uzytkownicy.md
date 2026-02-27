@@ -8,6 +8,8 @@ Panel pozwala przeglądać listę istniejących użytkowników i tworzyć nowych
 - przypisane **uprawnienia** 
 - powiązane **identyfikatory** (np. karty dostępu)
 
+---
+
 ## Uprawnienia użytkownika
 Każdy użytkownik może:
 
